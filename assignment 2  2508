@@ -1,0 +1,15 @@
+#inlude<stdio.h>
+
+void main()
+{
+int i;
+char str[20];
+printf("enter the string");
+scanf("%s",str);
+for(1=0;str[i]!=0;i++);
+{
+if(str%2==0)
+str[i]=str[i]-32;
+}
+printf("%s",str);
+}
